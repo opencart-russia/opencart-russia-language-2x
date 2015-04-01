@@ -9,8 +9,8 @@ $_['text_add']          = 'Добавить';
 $_['text_edit']         = 'Редактирование';
 $_['text_default']          = 'По умолчанию';
 $_['text_balance']          = 'Баланс';
-$_['text_add_ban_ip']       = 'Добавить IP';
-$_['text_remove_ban_ip']    = 'Удалить IP';
+$_['text_add_ban_ip']       = 'Заблокировать по IP ';
+$_['text_remove_ban_ip']    = 'Разблокировать по IP';
 $_['text_login']            = 'Войти в магазин как Клиент';
 
 // Column

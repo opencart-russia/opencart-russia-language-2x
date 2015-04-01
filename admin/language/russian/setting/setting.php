@@ -19,6 +19,8 @@ $_['text_shipping']                    = 'Адрес доставки';
 $_['text_payment']                     = 'Адрес плательщика';
 $_['text_mail']                        = 'Mail';
 $_['text_smtp']                        = 'SMTP';
+$_['text_google_captcha'] 		= 'Google Analytics';
+$_['text_google_captcha'] 		= 'Google reCAPTCHA';
 
 // Entry
 $_['entry_name']                       = 'Название магазина';
@@ -106,11 +108,11 @@ $_['entry_ftp_root']                   = 'FTP Домашняя директор�
 $_['entry_ftp_status']                 = 'Включить FTP';
 $_['entry_mail_protocol']              = 'Почтовый протокол';
 $_['entry_mail_parameter']             = 'Параметры функции mail';
-$_['entry_smtp_hostname']              = 'SMTP Имя сервера';
-$_['entry_smtp_username']              = 'SMTP Логин';
-$_['entry_smtp_password']              = 'SMTP Пароль';
-$_['entry_smtp_port']                  = 'SMTP Порт';
-$_['entry_smtp_timeout']               = 'SMTP Таймаут';
+$_['entry_mail_smtp_hostname']              = 'SMTP Имя сервера';
+$_['entry_mail_smtp_username']              = 'SMTP Логин';
+$_['entry_mail_smtp_password']              = 'SMTP Пароль';
+$_['entry_mail_smtp_port']                  = 'SMTP Порт';
+$_['entry_mail_smtp_timeout']               = 'SMTP Таймаут';
 $_['entry_fraud_detection']            = 'Использовать MaxMind систему обнаружения мошенников';
 $_['entry_fraud_key']                  = 'MaxMind лицензионный ключ';
 $_['entry_fraud_score']                = 'MaxMind баллы';
@@ -130,6 +132,9 @@ $_['entry_error_display']              = 'Показывать ошибки';
 $_['entry_error_log']                  = 'Записывать ошибки';
 $_['entry_error_filename']             = 'Файл журнала ошибок';
 $_['entry_google_analytics']           = 'Код Google Analytics';
+$_['entry_google_captcha_public']      = 'Site key';
+$_['entry_google_captcha_secret']      = 'Secret key';
+$_['entry_status'] 							= 'Статус';
 
 // Help
 $_['help_geocode']                     = 'Пожалуйста, введите ваше местонахождение как GeoCode.';
@@ -195,7 +200,8 @@ $_['help_maintenance']                 = 'Отключает отображен�
 $_['help_password']                    = 'Разрешает восстановление пароля для учетной записи администратора. Будет автоматически отключена, при попытке взлома.';
 $_['help_encryption']                  = 'Ключ, который будет использоваться для шифрования конфиденциальной информации при обработке заказов.';
 $_['help_compression']                 = 'GZIP для более эффективной передачи данных http запросов. Уровень сжатия должен быть между 0 - 9';
-$_['help_google_analytics']            = 'Войдите в Ваш <a href="http://www.google.com/analytics/" target="_blank"><u>Google Analytics аккаунт</u></a> и после настройки добавьте сюда код выданный Google Analytics.';
+$_['help_google_analytics']  = 'Войдите в Ваш <a href="http://www.google.com/analytics/" target="_blank"><u>Google Analytics</u></a> и после настройки добавьте сюда код выданный Google Analytics..';
+$_['help_google_captcha'] = 'Перейти <a href="https://www.google.com/recaptcha/intro/index.html" target="_blank"><u>страницу Google reCAPTCHA</u></a> и загеристрируйте сайт.';
 
 // Error
 $_['error_warning']                    = 'Ошибка! Проверьте форму на наличие ошибок!';
