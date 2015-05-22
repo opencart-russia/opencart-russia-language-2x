@@ -41,9 +41,10 @@ $_['entry_bad']                               = 'Плохо';
 $_['entry_captcha']                           = 'Введите код, указанный на картинке:';
 
 // Tabs
-$_['tab_description']                         = 'Описание';
+$_['tab_description']                       = 'Описание';
 $_['tab_attribute']                           = 'Характеристики';
 $_['tab_review']                              = 'Отзывов (%s)';
+$_['button_continue']                      = 'Отправить отзыв';
 
 // Error
 $_['error_name']                              = 'Имя должно быть от 3 до 25 символов!';

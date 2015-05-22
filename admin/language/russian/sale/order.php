@@ -169,6 +169,7 @@ $_['entry_affiliate']                         = 'Партнер';
 $_['entry_order_status']                      = 'Статус заказа';
 $_['entry_notify']                            = 'Уведомить покупателя';
 $_['entry_comment']                           = 'Комментарий';
+$_['entry_currency']       					    = 'Валюта';
 $_['entry_shipping_method']                   = 'Способ доставки';
 $_['entry_payment_method']                    = 'Способ оплаты';
 $_['entry_coupon']                            = 'Купон';
