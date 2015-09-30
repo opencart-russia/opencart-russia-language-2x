@@ -8,6 +8,8 @@ $_['text_approved']             = 'Ожидают активации %s акка
 $_['text_list']                 = 'Список партнеров';
 $_['text_add']          = 'Добавить';
 $_['text_edit']         = 'Редактирование';
+$_['text_affiliate_detail']     = 'Информация';
+$_['text_affiliate_address']    = 'Адрес';
 $_['text_balance']              = 'Баланс';
 $_['text_cheque']               = 'Чек';
 $_['text_paypal']               = 'PayPal';
@@ -64,13 +66,14 @@ $_['help_code']                 = 'Данный код используется 
 $_['help_commission']           = 'Процент, который партнер получает за каждый заказ.';
 
 // Error
+$_['error_warning']             = 'Внимание! Проверьте форму на наличие ошибок!';
 $_['error_permission']          = 'У Вас нет прав для изменения настроек Партнерской программы!';
 $_['error_exists']              = 'Данный E-mail уже кем то зарегистрирован!';
 $_['error_firstname']           = 'Имя должно быть от 3 до 32 символов!';
 $_['error_lastname']            = 'Фамилия должна быть от 3 до 32 символов!';
 $_['error_email']               = 'E-Mail адрес не корректный!';
 $_['error_cheque']              = 'Обязательно к заполнению!';
-$_['error_paypal']              = 'PayPal Email Address does not appear to be valid!!';
+$_['error_paypal']              = 'PayPal Email не корректный!!';
 $_['error_bank_account_name']   = 'Обязательно к заполнению!';
 $_['error_bank_account_number'] = 'Обязательно к заполнению!';
 $_['error_telephone']           = 'Телефон должен быть от 3 до 32 символов!';

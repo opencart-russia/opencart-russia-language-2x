@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']    = 'Google Hangouts';
+$_['heading_title']    = ' Чат Google Hangouts';
 
 // Text
 $_['text_module']      = 'Модули';
